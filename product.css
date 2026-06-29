@@ -144,12 +144,8 @@ nav {
   top: -30%;
   right: -20%;
   width: 70%;
-  height: 100%;
-  background: radial-gradient(
-    circle,
-    var(--glow-color, rgba(227, 6, 19, 0.1)) 0%,
-    transparent 70%
-  );
+  height: 120%;
+  background: var(--theme-color);
   pointer-events: none;
 }
 
