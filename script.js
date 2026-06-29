@@ -3,6 +3,23 @@
 // Hero Sound Engine + Full Functionality
 // ============================================
 
+// ============================================
+// INTRO ANIMATION
+// ============================================
+const introOverlay = document.getElementById("intro-overlay");
+
+function hideIntro() {
+  if (introOverlay) {
+    setTimeout(() => {
+      introOverlay.classList.add("hidden");
+      document.body.style.overflow = "auto";
+    }, 3000);
+  }
+}
+
+document.body.style.overflow = "hidden";
+window.addEventListener("load", hideIntro);
+
 // --- State Management ---
 let heroMotionReady = false;
 let heroTextSwapTimer = null;

@@ -4,20 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bianco Pulse | Ducati Panigale V2</title>
+    <title>Rosso Ducati | Ducati Panigale V2</title>
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --theme-color: #9F9180;
-            --glow-color: rgba(159, 145, 128, 0.15);
-        }
-    </style>
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- Intro Animation Overlay -->
+    <div class="intro-overlay" id="intro-overlay">
+        <div class="intro-logo">LEMWORK<span>I</span></div>
+        <div class="intro-subtitle">Shope - Ducati HACKATHON V2 2025</div>
+        <div class="intro-progress">
+            <div class="intro-progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- Parallax Background Elements -->
+    <div class="parallax-bg">
+        <div class="parallax-circle"></div>
+        <div class="parallax-circle"></div>
+        <div class="parallax-circle"></div>
+    </div>
 
     <!-- Navigation -->
     <nav>
@@ -33,36 +44,54 @@
         </div>
         <div class="nav-right">
             <div class="nav-cart" id="pricing-btn" title="View Pricing & Specs">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"
+                    height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512.003 512.003"
+                    xml:space="preserve">
+                    <g>
+                        <g>
+                            <path
+                                d="M148.847,326.461l-63.3,23.399c-2.262,0.835-4.583,1.233-6.861,1.233c-8.051,0-15.618-4.946-18.572-12.939    c-3.791-10.257,1.451-21.643,11.706-25.435l71.414-26.398c-14.22-20.374-37.821-33.715-64.551-33.715    C35.227,252.605,0,287.832,0,331.288s35.227,78.683,78.683,78.683c40.774,0,74.302-31.016,78.284-70.74    C153.571,334.699,150.838,330.143,148.847,326.461z" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path
+                                d="M433.32,252.605c-0.494,0-0.981,0.028-1.472,0.037l20.536,73.304c2.949,10.529-3.195,21.455-13.723,24.404    c-1.787,0.5-3.585,0.739-5.352,0.739c-8.656,0-16.604-5.719-19.055-14.463l-20.54-73.319    c11.237-6.561,24.243-10.411,38.134-10.667l-15.107-53.922c0.573-0.055,1.148-0.144,1.722-0.305    c5.264-1.476,8.335-6.939,6.861-12.204l-7.767-27.725c-1.474-5.264-6.935-8.336-12.202-6.862    c-0.573,0.161-1.114,0.376-1.631,0.626l-7.497-26.747c-2.048-7.309-8.096-12.805-15.567-14.146l-50.188-9.008    c-10.75-1.928-21.053,5.225-22.983,15.989c-1.932,10.762,5.227,21.053,15.989,22.984l37.969,6.815l5.509,19.666l-36.748,9.283    c-4.939-5.252-12.565-7.624-19.953-5.474l-21.118,6.141c-6.603,1.92-11.435,6.979-13.357,13.08l-43.654,11.026L82.994,168.592    c-10.67-2.385-21.254,4.341-23.634,15.012c-2.38,10.673,4.341,21.254,15.014,23.634l53.431,11.92l36.038,8.039l36.043,36.044    c3.636,3.638,3.882,9.454,0.565,13.385l-34.144,40.454c5.761,10.457,14.864,21.885,21.414,21.885h110.265    c12.489,0,24.228-4.864,33.058-13.694s13.694-20.57,13.694-33.058v-77.96l19.798-5.001l13.106-3.31l16.072,57.367    c-12.209,7.129-22.32,17.45-29.2,29.816c-5.627,10.113-9.083,21.594-9.749,33.823c-0.078,1.437-0.128,2.881-0.128,4.338    c0,43.456,35.227,78.683,78.683,78.683c43.456,0,78.683-35.227,78.683-78.683S476.775,252.605,433.32,252.605z" />
+                        </g>
+                    </g>
                 </svg>
+                <span class="cart-count">1</span>
             </div>
         </div>
     </nav>
 
     <!-- Hero Product -->
     <section class="product-hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-particles" id="hero-particles"></div>
+        <div class="hero-glow-orb"></div>
+
         <div class="product-info">
-            <div class="product-kicker">Ducati Panigale V2</div>
-            <h1 class="product-title">Bianco Pulse</h1>
-            <p class="product-subtitle">Clean contrast that sharpens every line of the bodywork</p>
+            <div class="product-kicker">Ducati Panigale VCC2</div>
+            <h1 class="product-title glitch-text" data-text="Rosso Ducati">Rosso Ducati</h1>
+            <p class="product-subtitle">The original Panigale statement in Ducati red. Pure racing DNA, refined for the
+                road.</p>
 
             <div class="product-price-row">
-                <span class="product-price">$19,295</span>
-                <span class="product-price-old">$21,800</span>
+                <span class="product-price counter-value" data-target="18995">$18,995</span>
+                <span class="product-price-old">$21,500</span>
                 <span class="product-price-note">Excl. taxes & fees</span>
             </div>
 
             <div class="product-actions">
-                <a href="#" class="btn-primary" id="shop-now-btn">
+                <a href="#" class="btn-primary magnetic-btn" id="shop-now-btn">
                     <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                     </svg>
                     Shop Now
                 </a>
-                <button class="btn-secondary" id="pricing-btn-alt">
+                <button class="btn-secondary magnetic-btn" id="pricing-btn-alt">
                     <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
@@ -74,75 +103,206 @@
             <div class="color-selector">
                 <span class="color-selector-label">Available Colors:</span>
                 <div class="color-options">
-                    <div class="color-opt " style="background:#E30613" title="Rosso Ducati"></div>
-                    <div class="color-opt " style="background:#FFD700" title="Giallo Strada"></div>
-                    <div class="color-opt " style="background:#006400" title="Verde Corse"></div>
-                    <div class="color-opt active" style="background:#9F9180" title="Bianco Pulse"></div>
-                    <div class="color-opt " style="background:#cf9800" title="Bronzo Veloce"></div>
+                    <div class="color-opt active" style="background:#E30613" title="Rosso Ducati" data-color="red">
+                    </div>
+                    <div class="color-opt" style="background:#FFD700" title="Giallo Strada" data-color="yellow"></div>
+                    <div class="color-opt" style="background:#006400" title="Verde Corse" data-color="green"></div>
+                    <div class="color-opt" style="background:#9F9180" title="Bianco Pulse" data-color="white"></div>
+                    <div class="color-opt" style="background:#cf9800" title="Bronzo Veloce" data-color="bronze"></div>
                 </div>
             </div>
         </div>
 
         <div class="product-image-wrap">
             <div class="product-badge">2024 Edition</div>
-            <img src="./assets/white_moto.png" alt="Bianco Pulse" class="product-image">
+            <img src="./assets/red_moto.png" alt="Rosso Ducati" class="product-image" id="hero-moto">
+            <div class="product-shadow"></div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
         </div>
     </section>
 
-    <!-- Specs Section -->
+    <!-- Technical Data Section - Like the Reference Image -->
+    <section class="tech-data-section" id="tech-data">
+        <div class="tech-data-header">
+            <div class="tech-data-title">Technical Data</div>
+            <div class="tech-data-subtitle">Specifications & Details</div>
+        </div>
+
+        <div class="tech-data-main">
+            <!-- Left: Main Image with Views -->
+            <div class="tech-data-visual">
+                <img src="./assets/red_moto.png" alt="Rosso Ducati Main" class="tech-data-main-image"
+                    id="tech-main-img">
+                <div class="tech-views">
+                    <div class="tech-view-thumb" data-view="left">
+                        <img src="./assets/red_moto.png" alt="Left Side">
+                        <span>Left Side</span>
+                    </div>
+                    <div class="tech-view-thumb" data-view="front">
+                        <img src="./assets/red_moto.png" alt="Front View">
+                        <span>Front View</span>
+                    </div>
+                    <div class="tech-view-thumb" data-view="rear">
+                        <img src="./assets/red_moto.png" alt="Rear View">
+                        <span>Rear View</span>
+                    </div>
+                    <div class="tech-view-thumb" data-view="top">
+                        <img src="./assets/red_moto.png" alt="Top View">
+                        <span>Top View</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Detail Cards -->
+            <div class="tech-details-grid">
+                <div class="tech-detail-card">
+                    <div class="tech-detail-label">Wide Handlebar</div>
+                    <div class="tech-detail-value">Wide scrambler handlebar with cross bar for confident control</div>
+                </div>
+                <div class="tech-detail-card">
+                    <div class="tech-detail-label">Bar End Mirrors</div>
+                    <div class="tech-detail-value">Premium bar end mirrors for a cleaner, more aggressive stance</div>
+                </div>
+                <div class="tech-detail-card">
+                    <div class="tech-detail-label">Compact Tail</div>
+                    <div class="tech-detail-value">Tidy tail section with integrated LED lights for modern aesthetics
+                    </div>
+                </div>
+                <div class="tech-detail-card">
+                    <div class="tech-detail-label">Custom Side Panel</div>
+                    <div class="tech-detail-value">Custom side panel with Panigale V2 badge and heritage branding</div>
+                </div>
+                <div class="tech-detail-card">
+                    <div class="tech-detail-label">Aluminum Bash Plate</div>
+                    <div class="tech-detail-value">Reinforced aluminum bash plate for added engine protection</div>
+                </div>
+                <div class="tech-detail-card">
+                    <div class="tech-detail-label">High Mount Exhaust</div>
+                    <div class="tech-detail-value">High-mount scrambler-style exhaust with aggressive sound profile
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Bar -->
+        <div class="tech-info-bar">
+            <div class="tech-info-item">
+                <div class="tech-info-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <div class="tech-info-label">Engine</div>
+                <div class="tech-info-value">955cc V2</div>
+            </div>
+            <div class="tech-info-item">
+                <div class="tech-info-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <div class="tech-info-label">Power</div>
+                <div class="tech-info-value">155 HP</div>
+            </div>
+            <div class="tech-info-item">
+                <div class="tech-info-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div class="tech-info-label">Weight</div>
+                <div class="tech-info-value">200 kg</div>
+            </div>
+            <div class="tech-info-item">
+                <div class="tech-info-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <div class="tech-info-label">Top Speed</div>
+                <div class="tech-info-value">260+ km/h</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specs Section - Dynamic 3D Cards -->
     <section class="specs-section" id="specs">
         <div class="section-header">
-            <div class="section-kicker">Technical Data</div>
+            <div class="section-kicker">Performance Data</div>
             <h2 class="section-title">Specifications</h2>
         </div>
         <div class="specs-grid">
 
             <div class="spec-card">
+                <span class="spec-number">01</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg></div>
                 <div class="spec-label">Engine</div>
-                <div class="spec-value">955cc Superquadro V2</div>
+                <div class="spec-value">955cc Superquadro</div>
+                <div class="spec-desc">Superquadro V-twin with desmodromic distribution, liquid-cooled for maximum power
+                    delivery</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">02</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg></div>
                 <div class="spec-label">Power</div>
-                <div class="spec-value">155 HP @ 10,750 rpm</div>
+                <div class="spec-value">155 HP</div>
+                <div class="spec-desc">155 horsepower at 10,750 rpm with explosive acceleration and linear power curve
+                </div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">03</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg></div>
                 <div class="spec-label">Torque</div>
-                <div class="spec-value">104 Nm @ 9,000 rpm</div>
+                <div class="spec-value">104 Nm</div>
+                <div class="spec-desc">104 Nm of torque at 9,000 rpm for instant throttle response and aggressive corner
+                    exits</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">04</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                     </svg></div>
                 <div class="spec-label">Weight</div>
-                <div class="spec-value">200 kg (441 lbs)</div>
+                <div class="spec-value">200 kg</div>
+                <div class="spec-desc">Dry weight of 200 kg (441 lbs) with optimal power-to-weight ratio for agile
+                    handling</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">05</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg></div>
                 <div class="spec-label">Top Speed</div>
                 <div class="spec-value">260+ km/h</div>
+                <div class="spec-desc">Electronically limited top speed exceeding 260 km/h with aerodynamic stability
+                </div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">06</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -150,108 +310,133 @@
                             d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg></div>
                 <div class="spec-label">Transmission</div>
-                <div class="spec-value">6-speed with Ducati Quick Shift</div>
+                <div class="spec-value">6-Speed DQS</div>
+                <div class="spec-desc">6-speed gearbox with Ducati Quick Shift up/down for seamless track shifts</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">07</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
                     </svg></div>
                 <div class="spec-label">Frame</div>
-                <div class="spec-value">Monocoque aluminum</div>
+                <div class="spec-value">Monocoque Alu</div>
+                <div class="spec-desc">Monocoque aluminum frame with single-sided swingarm for razor-sharp handling
+                </div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">08</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                     </svg></div>
                 <div class="spec-label">Suspension</div>
-                <div class="spec-value">Showa BPF fork, Sachs rear shock</div>
+                <div class="spec-value">Showa / Sachs</div>
+                <div class="spec-desc">Showa BPF fork and Sachs rear shock, fully adjustable for track and road</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">09</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg></div>
                 <div class="spec-label">Brakes</div>
-                <div class="spec-value">Brembo M4.32 monobloc</div>
+                <div class="spec-value">Brembo M4.32</div>
+                <div class="spec-desc">Brembo M4.32 monobloc calipers with cornering ABS for ultimate stopping power
+                </div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">10</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg></div>
                 <div class="spec-label">Tires</div>
-                <div class="spec-value">Pirelli Diablo Rosso IV</div>
+                <div class="spec-value">Pirelli Diablo</div>
+                <div class="spec-desc">Pirelli Diablo Rosso IV tires for maximum grip in all conditions</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">11</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                     </svg></div>
                 <div class="spec-label">Fuel</div>
-                <div class="spec-value">17L tank capacity</div>
+                <div class="spec-value">17L Tank</div>
+                <div class="spec-desc">17-liter fuel tank capacity with efficient consumption for extended rides</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">12</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                     </svg></div>
                 <div class="spec-label">Electronics</div>
-                <div class="spec-value">6-axis IMU, Traction Control, Wheelie Control</div>
+                <div class="spec-value">6-Axis IMU</div>
+                <div class="spec-desc">6-axis IMU with Traction Control, Wheelie Control, and Slide Control</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">13</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg></div>
                 <div class="spec-label">Display</div>
-                <div class="spec-value">4.3" TFT color display</div>
+                <div class="spec-value">4.3" TFT</div>
+                <div class="spec-desc">4.3-inch full-color TFT display with Ducati Multimedia System integration</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">14</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg></div>
                 <div class="spec-label">Seat Height</div>
                 <div class="spec-value">840mm</div>
+                <div class="spec-desc">Accessible 840mm seat height for confident footing at stops</div>
             </div>
 
             <div class="spec-card">
+                <span class="spec-number">15</span>
                 <div class="spec-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                             d="M5 10l7-7m0 0l7 7m-7-7v18" />
                     </svg></div>
-                <div class="spec-label">Ground Clearance</div>
+                <div class="spec-label">Clearance</div>
                 <div class="spec-value">155mm</div>
+                <div class="spec-desc">155mm ground clearance for confident cornering and lean angles</div>
             </div>
 
         </div>
     </section>
 
-    <!-- Why This Build -->
+    <!-- Why This Build - Parallax -->
     <section class="why-build">
+        <div class="why-build-bg">
+            <div class="why-build-bg-text">PANIGALE</div>
+        </div>
         <div class="why-build-grid">
             <div class="why-build-image">
-                <img src="./assets/white_moto.png" alt="Bianco Pulse Detail">
+                <img src="https://images.ctfassets.net/53883c3aa4cf6fb7732ebb5426db1bd7cdf7da68.png"
+                    alt="Rosso Ducati Detail">
             </div>
             <div class="why-build-content">
                 <div class="section-kicker">The Philosophy</div>
                 <h2 class="why-build-title">Why This Build</h2>
-                <p class="why-build-text">The Bianco Pulse strips away distraction to reveal the Panigale's pure
-                    sculptural form. Inspired by Ducati's one-off show bikes and art installations, this white finish
-                    highlights every crease and contour of the bodywork. The warm pearl undertone shifts under different
-                    lighting, creating a living surface that transforms from dawn to dusk. For the rider who appreciates
-                    design as much as performance, the Bianco Pulse is a rolling sculpture that happens to do 260 km/h.
-                </p>
+                <p class="why-build-text">The Rosso Ducati represents the purest expression of Ducati's racing DNA. Born
+                    on the track and refined for the road, this Panigale V2 carries the iconic red livery that has
+                    dominated World Superbike championships. Every component is engineered for maximum performance —
+                    from the Superquadro engine's 155 horsepower to the Brembo braking system that provides unmatched
+                    stopping power. The monocoque aluminum frame delivers razor-sharp handling, while the full
+                    electronics suite ensures you harness every ounce of power with confidence.</p>
                 <div class="why-build-features">
 
                     <div class="why-feature">
@@ -259,8 +444,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M13 10V3L4 14h7v7l9-11h-7z" />
                             </svg></div>
-                        <div class="why-feature-text"><strong>Pearl White</strong> — Multi-layer pearl finish with warm
-                            undertones</div>
+                        <div class="why-feature-text"><strong>Superquadro Engine</strong> — 955cc V-twin with 155 HP for
+                            explosive acceleration</div>
                     </div>
 
                     <div class="why-feature">
@@ -268,8 +453,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg></div>
-                        <div class="why-feature-text"><strong>Sculptural Form</strong> — Every body line visible in
-                            high-contrast white</div>
+                        <div class="why-feature-text"><strong>Racing Electronics</strong> — 6-axis IMU with cornering
+                            ABS, traction & wheelie control</div>
                     </div>
 
                     <div class="why-feature">
@@ -277,8 +462,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                             </svg></div>
-                        <div class="why-feature-text"><strong>Cinematic Presence</strong> — Inspired by Ducati design
-                            studio show bikes</div>
+                        <div class="why-feature-text"><strong>Track-Ready Chassis</strong> — Monocoque frame with fully
+                            adjustable Showa suspension</div>
                     </div>
 
                     <div class="why-feature">
@@ -286,8 +471,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                             </svg></div>
-                        <div class="why-feature-text"><strong>Night Contrast</strong> — Dramatic under artificial and
-                            natural light</div>
+                        <div class="why-feature-text"><strong>Iconic Livery</strong> — Authentic Ducati Corse red with
+                            racing heritage</div>
                     </div>
 
                 </div>
@@ -303,46 +488,80 @@
         </div>
         <div class="related-grid">
 
-            <a href="rosso-ducati.html" class="related-card">
-                <img src="./assets/red_moto.png" alt="Rosso Ducati" class="related-card-img">
-                <div class="related-card-body">
-                    <div class="related-card-title">Rosso Ducati</div>
-                    <div class="related-card-price">$18,995</div>
-                    <div class="related-card-desc">The original Panigale statement in Ducati red</div>
-                </div>
-            </a>
-
             <a href="giallo-strada.html" class="related-card">
-                <img src="./assets/yellow.png" alt="Giallo Strada" class="related-card-img">
+                <div class="related-card-img-wrap">
+                    <img src="https://images.ctfassets.net/53883c3aa4cf6fb7732ebb5426db1bd7cdf7da68.png"
+                        alt="Giallo Strada" class="related-card-img">
+                </div>
                 <div class="related-card-body">
                     <div class="related-card-title">Giallo Strada</div>
                     <div class="related-card-price">$19,495</div>
                     <div class="related-card-desc">A brighter, more electric take on the Panigale form</div>
                 </div>
+                <div class="related-card-arrow">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
             </a>
 
             <a href="verde-corse.html" class="related-card">
-                <img src="./assets/green_moto.png" alt="Verde Corse" class="related-card-img">
+                <div class="related-card-img-wrap">
+                    <img src="https://images.ctfassets.net/53883c3aa4cf6fb7732ebb5426db1bd7cdf7da68.png"
+                        alt="Verde Corse" class="related-card-img">
+                </div>
                 <div class="related-card-body">
                     <div class="related-card-title">Verde Corse</div>
                     <div class="related-card-price">$19,995</div>
                     <div class="related-card-desc">Dark, technical, and made for focused track energy</div>
                 </div>
+                <div class="related-card-arrow">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
+            </a>
+
+            <a href="bianco-pulse.html" class="related-card">
+                <div class="related-card-img-wrap">
+                    <img src="https://images.ctfassets.net/53883c3aa4cf6fb7732ebb5426db1bd7cdf7da68.png"
+                        alt="Bianco Pulse" class="related-card-img">
+                </div>
+                <div class="related-card-body">
+                    <div class="related-card-title">Bianco Pulse</div>
+                    <div class="related-card-price">$19,295</div>
+                    <div class="related-card-desc">Clean contrast that sharpens every line of the bodywork</div>
+                </div>
+                <div class="related-card-arrow">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
             </a>
 
             <a href="bronzo-veloce.html" class="related-card">
-                <img src="./assets/brown_moto.png" alt="Bronzo Veloce" class="related-card-img">
+                <div class="related-card-img-wrap">
+                    <img src="https://images.ctfassets.net/53883c3aa4cf6fb7732ebb5426db1bd7cdf7da68.png"
+                        alt="Bronzo Veloce" class="related-card-img">
+                </div>
                 <div class="related-card-body">
                     <div class="related-card-title">Bronzo Veloce</div>
                     <div class="related-card-price">$20,495</div>
                     <div class="related-card-desc">A premium warm finish with a more sculpted presence</div>
                 </div>
+                <div class="related-card-arrow">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
             </a>
 
         </div>
     </section>
-
-
 
     <!-- Pricing Sidebar -->
     <div class="sidebar-overlay" id="sidebar-overlay"></div>
@@ -461,7 +680,6 @@
             </a>
         </div>
     </div>
-
     <!-- Purchase Modal -->
     <div class="purchase-modal" id="purchase-modal">
         <div class="purchase-overlay" id="purchase-overlay"></div>
@@ -472,7 +690,7 @@
                 </svg>
             </button>
             <h2 class="purchase-title">Complete Your Order</h2>
-            <p class="purchase-subtitle">Bianco Pulse — $19,295</p>
+            <p class="purchase-subtitle">Rosso Ducati — $18,995</p>
 
             <form class="purchase-form" id="purchase-form">
                 <div class="purchase-form-group">
@@ -498,8 +716,20 @@
                     Send Order Request
                 </button>
             </form>
+
+            <div class="purchase-success" id="purchase-success" style="display:none;">
+                <div class="purchase-success-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+                <h3>Order Sent!</h3>
+                <p>We'll contact you shortly to confirm your order.</p>
+            </div>
         </div>
     </div>
+
+    <!-- Footer -->
     <!-- Footer -->
     <footer>
         <div class="footer-container">
@@ -573,8 +803,8 @@
             </div>
         </div>
     </footer>
-    <script src="product.js"></script>
 
+    <script src="product.js"></script>
 </body>
 
 </html>
